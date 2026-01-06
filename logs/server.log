@@ -1,0 +1,2220 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2110
+Retrait | Account=1 | Amount=5000 | Fee=500
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/services.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/dashboard HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/dashboard HTTP/1.1" 200 4196
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+"GET /static/admin/css/base.css HTTP/1.1" 200 21310
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2887
+"POST /admin/login/?next=/admin/dashboard HTTP/1.1" 200 4354
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/admin/dashboard HTTP/1.1" 301 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4208
+"GET /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4208
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+Internal Server Error: /auth/admin/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 89, in admin_dashboard_view
+    return render(request, "accounts/admin_dashboard.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /auth/admin/dashboard/ HTTP/1.1" 500 143983
+Dashboard admin consulté par yaya@gmail.com
+Internal Server Error: /auth/admin/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 89, in admin_dashboard_view
+    return render(request, "accounts/admin_dashboard.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET /auth/admin/dashboard/ HTTP/1.1" 500 150657
+Dashboard admin consulté par yaya@gmail.com
+Internal Server Error: /auth/admin/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 89, in admin_dashboard_view
+    return render(request, "accounts/admin_dashboard.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+"GET /auth/admin/dashboard/ HTTP/1.1" 500 163732
+Dashboard admin consulté par yaya@gmail.com
+Internal Server Error: /auth/admin/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: transactions_transaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 89, in admin_dashboard_view
+    return render(request, "accounts/admin_dashboard.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1886, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: transactions_transaction
+"GET /auth/admin/dashboard/ HTTP/1.1" 500 221545
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1487
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /auth/admin/user/1/toggle HTTP/1.1" 301 0
+Suspension du compte | Admin=yaya@gmail.com | User=yaya@gmail.com
+"GET /auth/admin/user/1/toggle/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1695
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /auth/user/dashboard HTTP/1.1" 301 0
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 473, in __get__
+    rel_obj = self.related.get_cached_value(instance)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/fields/mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'virtual_account'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: wallets_virtualaccount
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 58, in dashboard_view
+    virtual_account = getattr(user, "virtual_account", None)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 481, in __get__
+    rel_obj = self.get_queryset(instance=instance).get(**filter_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 635, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1886, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: wallets_virtualaccount
+"GET /auth/user/dashboard/ HTTP/1.1" 500 169038
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2254
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2254
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2254
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/admin/dashboard/ HTTP/1.1" 404 2255
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4208
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4375
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1487
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /static/css/main.css HTTP/1.1" 404 1795
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1380
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /admin/ HTTP/1.1" 200 5161
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/auth/group/ HTTP/1.1" 200 6982
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/ HTTP/1.1" 200 5161
+"GET /admin/auth/group/add/ HTTP/1.1" 200 11423
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /admin/ HTTP/1.1" 200 5161
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1380
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1380
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1487
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1380
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1380
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Not Found: /auth/user/1/toggle
+"GET /auth/user/1/toggle HTTP/1.1" 404 2928
+Not Found: /auth/user/1/toggle/
+"GET /auth/user/1/toggle/ HTTP/1.1" 404 2931
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1380
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Not Found: /auth/admin/1/toggle/
+"GET /auth/admin/1/toggle/ HTTP/1.1" 404 2934
+Suspension du compte | Admin=yaya@gmail.com | User=yaya@gmail.com
+"GET /auth/admin/user/1/toggle/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1695
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1375
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1375
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1375
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1375
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /static/css/main.css HTTP/1.1" 404 1795
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1375
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1375
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 4362
+Suspension du compte | Admin=yaya@gmail.com | User=user1@fintech.com
+"GET /auth/admin/user/2/toggle/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 4575
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Réactivation du compte | Admin=yaya@gmail.com | User=user1@fintech.com
+"GET /auth/admin/user/2/toggle/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 4574
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 4362
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 4362
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 4362
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4208
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4375
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4375
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4375
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4375
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4375
+"POST /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1491
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1491
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1491
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1491
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 1491
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 4372
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /admin/ HTTP/1.1" 200 5151
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 5792
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6049
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /static/css/main.css HTTP/1.1" 404 1795
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 7740
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 7035
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 7035
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 7120
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6379
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Suspension du compte | Admin=yaya@gmail.com | User=user10@fintech.com
+"GET /auth/admin/user/22/toggle/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6593
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Réactivation du compte | Admin=yaya@gmail.com | User=user10@fintech.com
+"GET /auth/admin/user/22/toggle/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6592
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/services.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/services.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/services.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/services.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/services.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6379
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 1393
+"GET /static/js/main.js HTTP/1.1" 404 1789
+"GET /static/css/main.css HTTP/1.1" 404 1795
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Dashboard consulté | User=yaya@gmail.com
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 72, in dashboard_view
+    return render(request, "accounts/dashboard.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'nom_de_votre_vue_depot' not found. 'nom_de_votre_vue_depot' is not a valid view function or pattern name.
+"GET /auth/user/dashboard/ HTTP/1.1" 500 169343
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6379
+"GET /static/css/main.css HTTP/1.1" 404 1795
+"GET /static/js/main.js HTTP/1.1" 404 1789
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/admin/filters.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2255
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /static/css/main.css HTTP/1.1" 404 1850
+Internal Server Error: /auth/deposit/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 160, in deposit_view
+    account = VirtualAccount.objects.get(user=request.user)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+wallets.models.VirtualAccount.DoesNotExist: VirtualAccount matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 163, in deposit_view
+    return redirect('dashboard')
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+"GET /auth/deposit/ HTTP/1.1" 500 114082
+Internal Server Error: /auth/transfert/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 197, in transfer_view
+    sender_account = VirtualAccount.objects.get(user=request.user)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+wallets.models.VirtualAccount.DoesNotExist: VirtualAccount matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 200, in transfer_view
+    return redirect('dashboard')
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+"GET /auth/transfert/ HTTP/1.1" 500 114396
+Internal Server Error: /auth/user/withdrawal_request/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 198, in request_withdrawal_view
+    return render(request, "transactions/request_withdrawal.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: transactions/request_withdrawal.html
+"GET /auth/user/withdrawal_request/ HTTP/1.1" 500 97904
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2705
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2447
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2447
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2447
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2447
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2447
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Internal Server Error: /auth/user/withdrawal_request/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 198, in request_withdrawal_view
+    return render(request, "transactions/request_withdrawal.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: transactions/request_withdrawal.html
+"GET /auth/user/withdrawal_request/ HTTP/1.1" 500 97593
+"GET /auth/transfert/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2449
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2447
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2447
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2255
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /static/css/main.css HTTP/1.1" 404 1850
+Internal Server Error: /auth/logout-admin/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 224, in logout
+    logout(request)
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 224, in logout
+    logout(request)
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 224, in logout
+    logout(request)
+  [Previous line repeated 969 more times]
+RecursionError: maximum recursion depth exceeded
+"POST /auth/logout-admin/ HTTP/1.1" 500 3037723
+Internal Server Error: /auth/logout-admin/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 224, in logout
+    logout(request)
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 224, in logout
+    logout(request)
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 224, in logout
+    logout(request)
+  [Previous line repeated 969 more times]
+RecursionError: maximum recursion depth exceeded
+"POST /auth/logout-admin/ HTTP/1.1" 500 3037723
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Internal Server Error: /auth/logout-admin/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 225, in logout_admin
+    return redirect('')
+          ^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+"POST /auth/logout-admin/ HTTP/1.1" 500 94625
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/auth/user/dashboard/ HTTP/1.1" 404 2395
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+"GET /auth/login/ HTTP/1.1" 500 90764
+Not Found: /auth/account/user/dashboard
+"GET /auth/account/user/dashboard HTTP/1.1" 404 5046
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 500 91372
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 500 91228
+Not Found: /auth/account/user/dashboard
+"GET /auth/account/user/dashboard HTTP/1.1" 404 5046
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 1005
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2704
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/transfert/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2706
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Internal Server Error: /auth/user/withdrawal_request/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 198, in request_withdrawal_view
+    return render(request, "transactions/request_withdrawal.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: transactions/request_withdrawal.html
+"GET /auth/user/withdrawal_request/ HTTP/1.1" 500 97599
+"GET /auth/transfert/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2706
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /auth/deposit/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2704
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 4107
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 1005
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6636
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par user1@fintech.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6637
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 1008
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par user3@fintech.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6637
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 1005
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 1008
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6636
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6636
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Suspension du compte | Admin=yaya@gmail.com | User=user5@fintech.com
+Internal Server Error: /auth/admin/user/17/toggle/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 113, in toggle_user_status
+    return redirect("admin_dashboard")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dashboard' not found. 'admin_dashboard' is not a valid view function or pattern name.
+"GET /auth/admin/user/17/toggle/ HTTP/1.1" 500 100944
+Suspension du compte | Admin=yaya@gmail.com | User=user10@fintech.com
+Internal Server Error: /auth/admin/user/22/toggle/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 113, in toggle_user_status
+    return redirect("admin_dashboard")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dashboard' not found. 'admin_dashboard' is not a valid view function or pattern name.
+"GET /auth/admin/user/22/toggle/ HTTP/1.1" 500 101231
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6999
+Réactivation du compte | Admin=yaya@gmail.com | User=user5@fintech.com
+Internal Server Error: /auth/admin/user/17/toggle/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 113, in toggle_user_status
+    return redirect("admin_dashboard")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dashboard' not found. 'admin_dashboard' is not a valid view function or pattern name.
+"GET /auth/admin/user/17/toggle/ HTTP/1.1" 500 100947
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6852
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /auth/logout-admin/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 244, in logout_admin
+    return redirect('dashboard')
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+"POST /auth/logout-admin/ HTTP/1.1" 500 94741
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/admin/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/admin/dashboard/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6640
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 1008
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 62, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /auth/logout-admin/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 263, in logout_admin
+    return redirect('user_dashboard')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_dashboard' not found. 'user_dashboard' is not a valid view function or pattern name.
+"POST /auth/logout-admin/ HTTP/1.1" 500 94840
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Not Found: /auth/user/dashboard/
+"GET /auth/user/dashboard/ HTTP/1.1" 404 4755
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 500 91770
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Internal Server Error: /auth/transfert/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 197, in transfer_view
+    sender_account = VirtualAccount.objects.get(user=request.user)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+wallets.models.VirtualAccount.DoesNotExist: VirtualAccount matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 200, in transfer_view
+    return redirect('dashboard_view')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard_view' not found. 'dashboard_view' is not a valid view function or pattern name.
+"GET /auth/transfert/ HTTP/1.1" 500 114242
+Internal Server Error: /auth/transfert/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 197, in transfer_view
+    sender_account = VirtualAccount.objects.get(user=request.user)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+wallets.models.VirtualAccount.DoesNotExist: VirtualAccount matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/transactions/views.py", line 200, in transfer_view
+    return redirect('dashboard_view')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard_view' not found. 'dashboard_view' is not a valid view function or pattern name.
+"GET /auth/transfert/ HTTP/1.1" 500 114509
+Internal Server Error: /auth/user/withdrawal_request/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 233, in request_withdrawal_view
+    return render(request, "transactions/request_withdrawal.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: transactions/request_withdrawal.html
+"GET /auth/user/withdrawal_request/ HTTP/1.1" 500 97882
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2836
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6640
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6640
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+Réactivation du compte | Admin=yaya@gmail.com | User=user10@fintech.com
+"GET /auth/admin/user/22/toggle/ HTTP/1.1" 302 0
+Dashboard admin consulté par yaya@gmail.com
+"GET /auth/admin/dashboard/ HTTP/1.1" 200 6849
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Dashboard consulté | User=yaya@gmail.com
+"GET /auth/user/dashboard/ HTTP/1.1" 200 2512
+"GET /static/css/main.css HTTP/1.1" 404 1850
+"GET /static/js/main.js HTTP/1.1" 404 1844
+"POST /auth/logout-admin/ HTTP/1.1" 302 0
+"GET /auth/user/dashboard/ HTTP/1.1" 302 0
+"GET /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 200 842
+"POST /auth/login/?next=/auth/user/dashboard/ HTTP/1.1" 302 0
+Internal Server Error: /auth/user/dashboard/
+Traceback (most recent call last):
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/accounts/views.py", line 94, in dashboard_view
+    transactions = virtual_account.transactions.order_by("-created_at")[:5]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualAccount' object has no attribute 'transactions'. Did you mean: 'sent_transactions'?
+"GET /auth/user/dashboard/ HTTP/1.1" 500 81356
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/freshyaya/Licence 3/Semestre 5/Django/fintech_transfer/config/settings.py changed, reloading.
+Watching for file changes with StatReloader

@@ -1,0 +1,27 @@
+
+version: "3.9"
+
+services:
+  web:
+    build: .
+    command: gunicorn fintech_transfer.wsgi:application --bind 0.0.0.0:8000
+    volumes:
+      - .:/app
+      - logs:/app/logs
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: fintech
+      POSTGRES_USER: fintech_user
+      POSTGRES_PASSWORD: fintech_pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  logs:

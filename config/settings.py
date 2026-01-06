@@ -38,14 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    
-    'core',
-    'accounts',
-    'wallets',
-    'transactions',
-    'dashboard',
-    'adminpanel',
+     'money_transfer',
 ]
+
+
+AUTH_USER_MODEL = 'money_transfer.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -125,4 +122,35 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 
-AUTH_USER_MODEL = 'accounts.User'
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+DEFAULT_FROM_EMAIL = "Bokopolo <phineasbokopolo@gmail.com>"
+
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "file": {
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": "logs/server.log",
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["file"],
+            "level": "INFO",
+            "propagate": True,
+        },
+        "fintech": {
+            "handlers": ["file"],
+            "level": "INFO",
+            "propagate": False,
+        },
+    },
+}
+
+
+LOGOUT_REDIRECT_URL = 'dashboard' 
+LOGIN_URL = 'login' 

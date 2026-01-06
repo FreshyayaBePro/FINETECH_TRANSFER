@@ -1,0 +1,90 @@
+from django.utils import timezone
+from datetime import timedelta
+import random
+
+from accounts.models import User, OTP
+from wallets.models import VirtualAccount
+from transactions.models import Transaction
+from core.enums import UserStatus
+
+
+def run():
+    print("🚀 Création des données de test...")
+
+    users = []
+
+    # =========================
+    # 1️⃣ UTILISATEURS (10)
+    # =========================
+    for i in range(1, 11):
+        user, created = User.objects.get_or_create(
+            email=f"user{i}@fintech.com",
+            defaults={
+                "first_name": f"User{i}",
+                "last_name": "Test",
+                "phone": f"+228900000{i}",
+                "gender": "M",
+                "status": UserStatus.ACTIVE,
+                "is_verified": True,
+            }
+        )
+
+        if created:
+            user.set_password("password123")
+            user.save()
+
+        users.append(user)
+
+    print("✅ 10 utilisateurs créés")
+
+    # =========================
+    # 2️⃣ WALLET / COMPTE VIRTUEL
+    # =========================
+    for user in users:
+        VirtualAccount.objects.get_or_create(
+            owner=user,
+            defaults={
+                "balance": random.randint(10_000, 100_000),
+                "currency": "XOF"
+            }
+        )
+
+    print("✅ Comptes virtuels créés")
+
+    # =========================
+    # 3️⃣ OTP (Validation + Retrait)
+    # =========================
+    for user in users:
+        OTP.objects.create(
+            user=user,
+            code=str(random.randint(100000, 999999)),
+            otp_type="ACCOUNT_VALIDATION",
+            expires_at=timezone.now() + timedelta(minutes=10),
+        )
+
+        OTP.objects.create(
+            user=user,
+            code=str(random.randint(100000, 999999)),
+            otp_type="WITHDRAWAL",
+            expires_at=timezone.now() + timedelta(minutes=5),
+        )
+
+    print("✅ OTP créés")
+
+    # =========================
+    # 4️⃣ TRANSACTIONS
+    # =========================
+    for user in users:
+        wallet = user.virtualaccount
+
+        for _ in range(3):
+            Transaction.objects.create(
+                user=user,
+                amount=random.randint(1000, 20_000),
+                transaction_type=random.choice(["DEPOSIT", "WITHDRAWAL"]),
+                status="SUCCESS",
+            )
+
+    print("✅ Transactions créées")
+
+    print("🎉 Données de test prêtes !")
