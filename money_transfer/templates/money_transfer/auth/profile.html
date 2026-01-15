@@ -1,0 +1,204 @@
+{% extends 'base.html' %}
+
+{% block title %}Mon Profil - Money Transfer{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto animate-slide-in">
+    <!-- Header -->
+    <div class="mb-8">
+        <h1 class="text-3xl font-bold text-gray-900">Mon Profil</h1>
+        <p class="text-gray-600 mt-1">Gérez vos informations personnelles</p>
+    </div>
+    
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Sidebar -->
+        <div class="space-y-6">
+            <!-- Carte utilisateur -->
+            <div class="card p-6 text-center">
+                <div class="inline-flex items-center justify-center w-20 h-20 rounded-full gradient-primary mb-4">
+                    <i class="fas fa-user text-4xl text-white"></i>
+                </div>
+                <h2 class="text-xl font-bold text-gray-900">{{ user.first_name }} {{ user.last_name }}</h2>
+                <p class="text-sm text-gray-600 mt-1">{{ user.email }}</p>
+                
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <span class="badge {% if user.status == 'ACTIVE' %}bg-green-100 text-green-800
+                        {% elif user.status == 'PENDING' %}bg-yellow-100 text-yellow-800
+                        {% else %}bg-red-100 text-red-800{% endif %}">
+                        {% if user.status == 'ACTIVE' %}<i class="fas fa-check-circle mr-1"></i>Actif
+                        {% elif user.status == 'PENDING' %}<i class="fas fa-clock mr-1"></i>En attente
+                        {% else %}<i class="fas fa-ban mr-1"></i>Suspendu{% endif %}
+                    </span>
+                    
+                    {% if user.is_verified %}
+                    <p class="text-sm text-green-600 mt-2">
+                        <i class="fas fa-shield-alt mr-1"></i>Compte vérifié
+                    </p>
+                    {% else %}
+                    <p class="text-sm text-yellow-600 mt-2">
+                        <i class="fas fa-exclamation-circle mr-1"></i>Non vérifié
+                    </p>
+                    <a href="{% url 'verify_account' %}" class="text-sm text-blue-600 hover:text-blue-700 font-medium mt-1 inline-block">
+                        Vérifier maintenant →
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <!-- Solde -->
+            <div class="card p-6">
+                <p class="text-sm text-gray-600 mb-2">Solde actuel</p>
+                <p class="text-3xl font-bold text-gray-900">{{ balance|floatformat:0 }}</p>
+                <p class="text-sm text-gray-600">FCFA</p>
+                
+                <a href="{% url 'dashboard' %}" 
+                   class="mt-4 block w-full py-2 text-center gradient-primary text-white font-semibold rounded-lg hover:opacity-90 transition">
+                    <i class="fas fa-chart-line mr-2"></i>Voir le dashboard
+                </a>
+            </div>
+            
+            <!-- Infos compte -->
+            <div class="card p-6">
+                <h3 class="font-semibold text-gray-900 mb-4">Informations du compte</h3>
+                <div class="space-y-3 text-sm">
+                    <div class="flex items-center justify-between">
+                        <span class="text-gray-600">Membre depuis</span>
+                        <span class="font-medium text-gray-900">{{ user.date_joined|date:"d/m/Y" }}</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-gray-600">Dernière connexion</span>
+                        <span class="font-medium text-gray-900">{{ user.last_login|date:"d/m/Y" }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Formulaire principal -->
+        <div class="lg:col-span-2">
+            <div class="card p-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                    <i class="fas fa-edit text-blue-600 mr-2"></i>
+                    Modifier mes informations
+                </h2>
+                
+                <form method="post" class="space-y-6">
+                    {% csrf_token %}
+                    
+                    <!-- Prénom et Nom -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="{{ form.first_name.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-user mr-2 text-blue-600"></i>Prénom
+                            </label>
+                            {{ form.first_name }}
+                            {% if form.first_name.errors %}
+                                <p class="mt-2 text-sm text-red-600">{{ form.first_name.errors.0 }}</p>
+                            {% endif %}
+                        </div>
+                        
+                        <div>
+                            <label for="{{ form.last_name.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-user mr-2 text-blue-600"></i>Nom
+                            </label>
+                            {{ form.last_name }}
+                            {% if form.last_name.errors %}
+                                <p class="mt-2 text-sm text-red-600">{{ form.last_name.errors.0 }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <!-- Email (non modifiable) -->
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                            <i class="fas fa-envelope mr-2 text-blue-600"></i>Email
+                        </label>
+                        <input type="email" 
+                               value="{{ user.email }}" 
+                               disabled
+                               class="w-full px-4 py-3 bg-gray-100 border border-gray-300 rounded-lg text-gray-500 cursor-not-allowed">
+                        <p class="mt-1 text-xs text-gray-500">
+                            <i class="fas fa-lock mr-1"></i>L'email ne peut pas être modifié
+                        </p>
+                    </div>
+                    
+                    <!-- Téléphone et Genre -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="{{ form.phone.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-phone mr-2 text-blue-600"></i>Téléphone
+                            </label>
+                            {{ form.phone }}
+                            {% if form.phone.errors %}
+                                <p class="mt-2 text-sm text-red-600">{{ form.phone.errors.0 }}</p>
+                            {% endif %}
+                        </div>
+                        
+                        <div>
+                            <label for="{{ form.gender.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-venus-mars mr-2 text-blue-600"></i>Genre
+                            </label>
+                            {{ form.gender }}
+                            {% if form.gender.errors %}
+                                <p class="mt-2 text-sm text-red-600">{{ form.gender.errors.0 }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <!-- Info sécurité -->
+                    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-shield-alt text-blue-600 mt-1"></i>
+                            <div class="text-sm text-blue-800">
+                                <p class="font-medium mb-1">Sécurité :</p>
+                                <p>Pour modifier votre mot de passe, veuillez contacter le support.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Boutons -->
+                    <div class="flex gap-4">
+                        <a href="{% url 'dashboard' %}" 
+                           class="flex-1 py-3 text-center bg-gray-200 text-gray-700 font-semibold rounded-lg hover:bg-gray-300 transition">
+                            <i class="fas fa-times mr-2"></i>Annuler
+                        </a>
+                        <button type="submit" 
+                                class="flex-1 gradient-primary py-3 text-white font-semibold rounded-lg hover:opacity-90 transition transform hover:scale-105">
+                            <i class="fas fa-save mr-2"></i>Enregistrer les modifications
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Section sécurité -->
+            <div class="card p-6 mt-6">
+                <h3 class="font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                    <i class="fas fa-lock text-red-600"></i>
+                    Sécurité du compte
+                </h3>
+                
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                        <div>
+                            <p class="font-medium text-gray-900">Authentification à deux facteurs</p>
+                            <p class="text-sm text-gray-600">Protection renforcée de votre compte</p>
+                        </div>
+                        <span class="badge bg-green-100 text-green-800">
+                            <i class="fas fa-check mr-1"></i>Activé (OTP)
+                        </span>
+                    </div>
+                    
+                    <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                        <div>
+                            <p class="font-medium text-gray-900">Notifications par email</p>
+                            <p class="text-sm text-gray-600">Recevez les alertes de sécurité</p>
+                        </div>
+                        <span class="badge bg-green-100 text-green-800">
+                            <i class="fas fa-check mr-1"></i>Activé
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -33,7 +33,7 @@ from core.enums import UserStatus
 
 
 def main():
-    print("🚀 Initialisation des données de test...")
+    print(" Initialisation des données de test...")
 
     users = []
 
@@ -59,10 +59,10 @@ def main():
 
         users.append(user)
 
-    print("✅ 10 utilisateurs créés")
+    print(" 10 utilisateurs créés")
 
     # =========================
-    # 2️⃣ WALLET / COMPTE VIRTUEL
+    # 2️ WALLET / COMPTE VIRTUEL
     # =========================
 
     # for user in users:
@@ -74,11 +74,11 @@ def main():
     #         }
     #     )
 
-    # print("✅ Comptes virtuels créés")
+    # print(" Comptes virtuels créés")
 
 
     # =========================
-    # 3️⃣ OTP
+    # 3️ OTP
     # =========================
     # for user in users:
     #     OTP.objects.create(
@@ -95,10 +95,10 @@ def main():
     #         expires_at=timezone.now() + timedelta(minutes=5),
     #     )
 
-    # print("✅ OTP créés")
+    # print(" OTP créés")
 
     # =========================
-    # 4️⃣ TRANSACTIONS
+    # 4️ TRANSACTIONS
     # =========================
     from transactions.models import Transaction
     from wallets.models import VirtualAccount
@@ -107,7 +107,7 @@ def main():
     for user in users:
         account = user.virtual_account
 
-        # 1️⃣ DÉPÔT
+        # 1️ DÉPÔT
         Transaction.objects.create(
             type=TypeTransaction.DEPOSIT,
             status=TransactionStatus.SUCCESS,
@@ -118,7 +118,7 @@ def main():
             receiver_account=account,
         )
 
-        # 2️⃣ RETRAIT
+        # 2️ RETRAIT
         fee = 500
         amount = 10_000
 
@@ -132,7 +132,7 @@ def main():
             receiver_account=None,
         )
 
-    print("✅ Transactions créées")
+    print(" Transactions créées")
 
 
 

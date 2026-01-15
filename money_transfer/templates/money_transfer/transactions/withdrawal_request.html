@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+
+{% block title %}Retrait - Money Transfer{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto animate-slide-in">
+    <!-- Breadcrumb -->
+    <div class="mb-6">
+        <a href="{% url 'dashboard' %}" class="text-blue-600 hover:text-blue-700">
+            <i class="fas fa-arrow-left mr-2"></i>Retour au dashboard
+        </a>
+    </div>
+    
+    <!-- Card principale -->
+    <div class="card p-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full gradient-danger mb-4">
+                <i class="fas fa-minus text-3xl text-white"></i>
+            </div>
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">Retirer de l'argent</h1>
+            <p class="text-gray-600">Retirez vos fonds en toute sécurité</p>
+        </div>
+        
+        <!-- Solde actuel -->
+        <div class="bg-gradient-to-r from-red-50 to-orange-50 rounded-lg p-6 mb-8">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm text-gray-600 mb-1">Solde disponible</p>
+                    <p class="text-3xl font-bold text-gray-900">{{ balance|floatformat:0 }} FCFA</p>
+                </div>
+                <i class="fas fa-wallet text-4xl text-red-600"></i>
+            </div>
+        </div>
+        
+        <!-- Info frais -->
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded mb-6">
+            <div class="flex items-start gap-3">
+                <i class="fas fa-exclamation-triangle text-yellow-600 mt-1"></i>
+                <div>
+                    <p class="text-sm text-yellow-800 font-medium mb-1">Frais de retrait :</p>
+                    <p class="text-sm text-yellow-700">
+                        Des frais de <strong>{{ fee_rate }}%</strong> seront appliqués sur le montant du retrait.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Formulaire -->
+        <form method="post" class="space-y-6" id="withdrawal-form">
+            {% csrf_token %}
+            
+            <div>
+                <label for="{{ form.amount.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                    <i class="fas fa-money-bill-wave mr-2 text-red-600"></i>
+                    Montant à retirer (FCFA)
+                </label>
+                <div class="relative">
+                    <input type="number" 
+                           name="{{ form.amount.name }}" 
+                           id="{{ form.amount.id_for_label }}"
+                           class="w-full px-4 py-4 text-2xl font-bold border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                           placeholder="5 000"
+                           min="500"
+                           step="1"
+                           required
+                           oninput="calculateFees()">
+                </div>
+                {% if form.amount.errors %}
+                    <p class="mt-2 text-sm text-red-600">{{ form.amount.errors.0 }}</p>
+                {% endif %}
+                <p class="mt-2 text-sm text-gray-600">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    Montant minimum : 500 FCFA
+                </p>
+            </div>
+            
+            <!-- Calcul des frais dynamique -->
+            <div id="fee-calculation" class="hidden">
+                <div class="bg-gray-50 rounded-lg p-6 space-y-3">
+                    <div class="flex items-center justify-between text-gray-700">
+                        <span>Montant demandé :</span>
+                        <span class="font-semibold" id="display-amount">0 FCFA</span>
+                    </div>
+                    <div class="flex items-center justify-between text-red-600">
+                        <span>Frais ({{ fee_rate }}%) :</span>
+                        <span class="font-semibold" id="display-fee">0 FCFA</span>
+                    </div>
+                    <hr class="border-gray-300">
+                    <div class="flex items-center justify-between text-lg font-bold text-gray-900">
+                        <span>Montant net reçu :</span>
+                        <span class="text-green-600" id="display-net">0 FCFA</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Montants suggérés -->
+            <div>
+                <p class="text-sm font-medium text-gray-700 mb-3">Montants suggérés :</p>
+                <div class="grid grid-cols-3 gap-3">
+                    <button type="button" 
+                            onclick="setAmount(5000)"
+                            class="py-3 px-4 bg-red-50 text-red-700 font-medium rounded-lg hover:bg-red-100 transition">
+                        5 000 FCFA
+                    </button>
+                    <button type="button" 
+                            onclick="setAmount(10000)"
+                            class="py-3 px-4 bg-red-50 text-red-700 font-medium rounded-lg hover:bg-red-100 transition">
+                        10 000 FCFA
+                    </button>
+                    <button type="button" 
+                            onclick="setAmount(20000)"
+                            class="py-3 px-4 bg-red-50 text-red-700 font-medium rounded-lg hover:bg-red-100 transition">
+                        20 000 FCFA
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Sécurité info -->
+            <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-shield-alt text-blue-600 mt-1"></i>
+                    <div>
+                        <p class="text-sm text-blue-800 font-medium mb-1">Sécurité renforcée :</p>
+                        <p class="text-sm text-blue-700">
+                            Un code OTP sera envoyé à votre email pour confirmer cette opération.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Boutons -->
+            <div class="flex gap-4">
+                <a href="{% url 'dashboard' %}" 
+                   class="flex-1 py-4 px-6 bg-gray-200 text-gray-700 font-semibold rounded-lg hover:bg-gray-300 transition text-center">
+                    <i class="fas fa-times mr-2"></i>Annuler
+                </a>
+                <button type="submit" 
+                        class="flex-1 gradient-danger py-4 px-6 text-white font-semibold rounded-lg hover:opacity-90 transition transform hover:scale-105">
+                    <i class="fas fa-arrow-right mr-2"></i>Continuer
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    const feeRate = {{ fee_rate }};
+    
+    function setAmount(amount) {
+        document.getElementById('{{ form.amount.id_for_label }}').value = amount;
+        calculateFees();
+    }
+    
+    function calculateFees() {
+        const input = document.getElementById('{{ form.amount.id_for_label }}');
+        const amount = parseInt(input.value) || 0;
+        
+        if (amount > 0) {
+            const fee = Math.floor(amount * feeRate / 100);
+            const net = amount - fee;
+            
+            document.getElementById('fee-calculation').classList.remove('hidden');
+            document.getElementById('display-amount').textContent = amount.toLocaleString() + ' FCFA';
+            document.getElementById('display-fee').textContent = fee.toLocaleString() + ' FCFA';
+            document.getElementById('display-net').textContent = net.toLocaleString() + ' FCFA';
+        } else {
+            document.getElementById('fee-calculation').classList.add('hidden');
+        }
+    }
+</script>
+{% endblock %}

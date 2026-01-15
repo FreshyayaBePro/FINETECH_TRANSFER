@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+
+{% block title %}Détail Transaction - Money Transfer{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto animate-slide-in">
+    <!-- Breadcrumb -->
+    <div class="mb-6">
+        <a href="{% url 'transactions_history' %}" class="text-blue-600 hover:text-blue-700">
+            <i class="fas fa-arrow-left mr-2"></i>Retour à l'historique
+        </a>
+    </div>
+    
+    <!-- Card principale -->
+    <div class="card p-8">
+        <!-- Header avec statut -->
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-20 h-20 rounded-full mb-4
+                {% if transaction.type == 'DEPOSIT' %}bg-green-100 text-green-600
+                {% elif transaction.type == 'WITHDRAWAL' %}bg-red-100 text-red-600
+                {% elif transaction.type == 'TRANSFER' %}bg-blue-100 text-blue-600
+                {% else %}bg-gray-100 text-gray-600{% endif %}">
+                <i class="fas text-4xl {% if transaction.type == 'DEPOSIT' %}fa-arrow-down
+                    {% elif transaction.type == 'WITHDRAWAL' %}fa-arrow-up
+                    {% elif transaction.type == 'TRANSFER' %}fa-exchange-alt
+                    {% else %}fa-receipt{% endif %}"></i>
+            </div>
+            
+            <h1 class="text-2xl font-bold text-gray-900 mb-2">
+                {{ transaction.get_type_display }}
+            </h1>
+            
+            <span class="badge text-lg {% if transaction.status == 'SUCCESS' %}bg-green-100 text-green-800
+                {% elif transaction.status == 'PENDING' %}bg-yellow-100 text-yellow-800
+                {% else %}bg-red-100 text-red-800{% endif %}">
+                <i class="fas {% if transaction.status == 'SUCCESS' %}fa-check-circle
+                    {% elif transaction.status == 'PENDING' %}fa-clock
+                    {% else %}fa-times-circle{% endif %} mr-2"></i>
+                {{ transaction.get_status_display }}
+            </span>
+        </div>
+        
+        <!-- Montant principal -->
+        <div class="text-center mb-8 p-6 bg-gradient-to-br 
+            {% if transaction.type == 'DEPOSIT' or user_role == 'receiver' %}from-green-50 to-emerald-50
+            {% elif transaction.type == 'WITHDRAWAL' or user_role == 'sender' %}from-red-50 to-orange-50
+            {% else %}from-blue-50 to-purple-50{% endif %} rounded-xl">
+            <p class="text-sm text-gray-600 mb-2">Montant</p>
+            <p class="text-5xl font-bold {% if transaction.type == 'DEPOSIT' or user_role == 'receiver' %}text-green-600
+                {% elif transaction.type == 'WITHDRAWAL' or user_role == 'sender' %}text-red-600
+                {% else %}text-blue-600{% endif %}">
+                {% if transaction.type == 'DEPOSIT' or user_role == 'receiver' %}+{% elif transaction.type == 'WITHDRAWAL' or user_role == 'sender' %}-{% endif %}{{ transaction.amount|floatformat:0 }}
+            </p>
+            <p class="text-lg text-gray-600 mt-1">FCFA</p>
+        </div>
+        
+        <!-- Détails de la transaction -->
+        <div class="space-y-4">
+            <!-- Référence -->
+            <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-hashtag text-gray-600"></i>
+                    <div>
+                        <p class="text-sm text-gray-600">Référence</p>
+                        <p class="font-mono font-semibold text-gray-900">{{ transaction.reference }}</p>
+                    </div>
+                </div>
+                <button onclick="copyToClipboard('{{ transaction.reference }}')" 
+                        class="px-3 py-1 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition text-sm">
+                    <i class="fas fa-copy mr-1"></i>Copier
+                </button>
+            </div>
+            
+            <!-- Date -->
+            <div class="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
+                <i class="fas fa-calendar text-gray-600"></i>
+                <div>
+                    <p class="text-sm text-gray-600">Date</p>
+                    <p class="font-semibold text-gray-900">{{ transaction.created_at|date:"d/m/Y à H:i:s" }}</p>
+                </div>
+            </div>
+            
+            <!-- Frais (si applicable) -->
+            {% if transaction.fee > 0 %}
+            <div class="flex items-center justify-between p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-percentage text-yellow-600"></i>
+                    <div>
+                        <p class="text-sm text-yellow-800">Frais appliqués</p>
+                        <p class="font-semibold text-yellow-900">{{ transaction.fee|floatformat:0 }} FCFA</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex items-center justify-between p-4 bg-green-50 border-l-4 border-green-400 rounded-lg">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-coins text-green-600"></i>
+                    <div>
+                        <p class="text-sm text-green-800">Montant net</p>
+                        <p class="font-semibold text-green-900">{{ transaction.net_amount|floatformat:0 }} FCFA</p>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- Émetteur / Destinataire (pour transferts) -->
+            {% if transaction.type == 'TRANSFER' %}
+            <div class="p-4 bg-blue-50 rounded-lg space-y-3">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-user text-blue-600"></i>
+                    <div class="flex-1">
+                        <p class="text-sm text-blue-800">Émetteur</p>
+                        <p class="font-semibold text-blue-900">
+                            {% if transaction.sender_account.user %}
+                                {{ transaction.sender_account.user.first_name }} {{ transaction.sender_account.user.last_name }}
+                                <span class="text-sm font-normal">({{ transaction.sender_account.user.email }})</span>
+                            {% else %}
+                                Plateforme
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-center">
+                    <i class="fas fa-arrow-down text-blue-600"></i>
+                </div>
+                
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-user-check text-blue-600"></i>
+                    <div class="flex-1">
+                        <p class="text-sm text-blue-800">Destinataire</p>
+                        <p class="font-semibold text-blue-900">
+                            {% if transaction.receiver_account and transaction.receiver_account.user %}
+                                {{ transaction.receiver_account.user.first_name }} {{ transaction.receiver_account.user.last_name }}
+                                <span class="text-sm font-normal">({{ transaction.receiver_account.user.email }})</span>
+                            {% else %}
+                                -
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- Description (si présente) -->
+            {% if transaction.description %}
+            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                <i class="fas fa-comment text-gray-600 mt-1"></i>
+                <div>
+                    <p class="text-sm text-gray-600">Description</p>
+                    <p class="text-gray-900">{{ transaction.description }}</p>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- Actions -->
+        <div class="mt-8 flex gap-4">
+            <a href="{% url 'transactions_history' %}" 
+               class="flex-1 py-3 text-center bg-gray-200 text-gray-700 font-semibold rounded-lg hover:bg-gray-300 transition">
+                <i class="fas fa-list mr-2"></i>Voir l'historique
+            </a>
+            <a href="{% url 'dashboard' %}" 
+               class="flex-1 py-3 text-center gradient-primary text-white font-semibold rounded-lg hover:opacity-90 transition">
+                <i class="fas fa-home mr-2"></i>Retour au dashboard
+            </a>
+        </div>
+    </div>
+    
+    <!-- Info complémentaire -->
+    <div class="mt-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-lg">
+        <div class="flex items-start gap-3">
+            <i class="fas fa-info-circle text-blue-600 mt-1"></i>
+            <div class="text-sm text-blue-800">
+                <p class="font-medium mb-1">À savoir :</p>
+                <p>Cette transaction est immuable et ne peut pas être modifiée. Conservez cette référence pour tout litige.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('✅ Référence copiée dans le presse-papier !');
+        }).catch(err => {
+            console.error('Erreur lors de la copie:', err);
+        });
+    }
+</script>
+{% endblock %}
