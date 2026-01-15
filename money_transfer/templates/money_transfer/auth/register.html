@@ -1,0 +1,138 @@
+{% extends 'base.html' %}
+
+{% block title %}Inscription - Money Transfer{% endblock %}
+
+{% block content %}
+<div class="min-h-screen flex items-center justify-center gradient-bg py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl w-full">
+        <div class="glass rounded-2xl p-8 shadow-2xl animate-slide-in">
+            <!-- Header -->
+            <div class="text-center mb-8">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white bg-opacity-30 mb-4">
+                    <i class="fas fa-user-plus text-3xl text-white"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-white mb-2">
+                    Créer un compte
+                </h2>
+                <p class="text-white text-opacity-80">
+                    Rejoignez Money Transfer dès aujourd'hui
+                </p>
+            </div>
+            
+            <form method="post" class="space-y-6">
+                {% csrf_token %}
+                
+                <!-- Nom et Prénom -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-white mb-2">
+                            <i class="fas fa-user mr-2"></i>Prénom
+                        </label>
+                        {{ form.first_name }}
+                        {% if form.first_name.errors %}
+                            <p class="mt-1 text-sm text-red-300">{{ form.first_name.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-white mb-2">
+                            <i class="fas fa-user mr-2"></i>Nom
+                        </label>
+                        {{ form.last_name }}
+                        {% if form.last_name.errors %}
+                            <p class="mt-1 text-sm text-red-300">{{ form.last_name.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <!-- Email et Téléphone -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-white mb-2">
+                            <i class="fas fa-envelope mr-2"></i>Email
+                        </label>
+                        {{ form.email }}
+                        {% if form.email.errors %}
+                            <p class="mt-1 text-sm text-red-300">{{ form.email.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-white mb-2">
+                            <i class="fas fa-phone mr-2"></i>Téléphone
+                        </label>
+                        {{ form.phone }}
+                        {% if form.phone.errors %}
+                            <p class="mt-1 text-sm text-red-300">{{ form.phone.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <!-- Genre -->
+                <div>
+                    <label class="block text-sm font-medium text-white mb-2">
+                        <i class="fas fa-venus-mars mr-2"></i>Genre
+                    </label>
+                    {{ form.gender }}
+                    {% if form.gender.errors %}
+                        <p class="mt-1 text-sm text-red-300">{{ form.gender.errors.0 }}</p>
+                    {% endif %}
+                </div>
+                
+                <!-- Mot de passe -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-white mb-2">
+                            <i class="fas fa-lock mr-2"></i>Mot de passe
+                        </label>
+                        {{ form.password1 }}
+                        {% if form.password1.errors %}
+                            <p class="mt-1 text-sm text-red-300">{{ form.password1.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-white mb-2">
+                            <i class="fas fa-lock mr-2"></i>Confirmation
+                        </label>
+                        {{ form.password2 }}
+                        {% if form.password2.errors %}
+                            <p class="mt-1 text-sm text-red-300">{{ form.password2.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <!-- CGU -->
+                <div class="flex items-start">
+                    <div class="flex items-center h-5">
+                        {{ form.accept_terms }}
+                    </div>
+                    <label for="{{ form.accept_terms.id_for_label }}" class="ml-2 text-sm text-white">
+                        J'accepte les <a href="#" class="font-semibold underline">conditions générales d'utilisation</a>
+                    </label>
+                </div>
+                {% if form.accept_terms.errors %}
+                    <p class="text-sm text-red-300">{{ form.accept_terms.errors.0 }}</p>
+                {% endif %}
+                
+                <!-- Submit -->
+                <button type="submit" 
+                        class="w-full bg-white text-purple-600 py-3 px-4 rounded-lg font-semibold hover:bg-opacity-90 transition transform hover:scale-105 flex items-center justify-center gap-2">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Créer mon compte</span>
+                </button>
+            </form>
+            
+            <!-- Lien connexion -->
+            <div class="mt-6 text-center">
+                <p class="text-white text-opacity-80">
+                    Déjà un compte ?
+                    <a href="{% url 'login' %}" class="text-white font-semibold hover:underline">
+                        Se connecter
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

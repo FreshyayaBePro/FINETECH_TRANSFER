@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+
+{% block title %}Connexion - Money Transfer{% endblock %}
+
+{% block content %}
+<div class="min-h-screen flex items-center justify-center gradient-bg py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-md w-full">
+        <!-- Card avec glassmorphism -->
+        <div class="glass rounded-2xl p-8 shadow-2xl animate-slide-in">
+            <!-- Logo et titre -->
+            <div class="text-center mb-8">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white bg-opacity-30 mb-4">
+                    <i class="fas fa-wallet text-3xl text-white"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-white mb-2">
+                    Bienvenue !
+                </h2>
+                <p class="text-white text-opacity-80">
+                    Connectez-vous à votre compte
+                </p>
+            </div>
+            
+            <!-- Formulaire -->
+            <form method="post" class="space-y-6">
+                {% csrf_token %}
+                
+                <!-- Email -->
+                <div>
+                    <label for="{{ form.username.id_for_label }}" class="block text-sm font-medium text-white mb-2">
+                        <i class="fas fa-envelope mr-2"></i>{{ form.username.label }}
+                    </label>
+                    <input type="email" 
+                           name="{{ form.username.name }}" 
+                           id="{{ form.username.id_for_label }}"
+                           class="w-full px-4 py-3 bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-60 border border-white border-opacity-30 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition"
+                           placeholder="votre.email@example.com"
+                           required>
+                    {% if form.username.errors %}
+                        <p class="mt-2 text-sm text-red-300">{{ form.username.errors.0 }}</p>
+                    {% endif %}
+                </div>
+                
+                <!-- Password -->
+                <div>
+                    <label for="{{ form.password.id_for_label }}" class="block text-sm font-medium text-white mb-2">
+                        <i class="fas fa-lock mr-2"></i>{{ form.password.label }}
+                    </label>
+                    <input type="password" 
+                           name="{{ form.password.name }}" 
+                           id="{{ form.password.id_for_label }}"
+                           class="w-full px-4 py-3 bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-60 border border-white border-opacity-30 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition"
+                           placeholder="••••••••"
+                           required>
+                    {% if form.password.errors %}
+                        <p class="mt-2 text-sm text-red-300">{{ form.password.errors.0 }}</p>
+                    {% endif %}
+                </div>
+                
+                <!-- Remember me -->
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                        <input type="checkbox" 
+                               name="{{ form.remember_me.name }}" 
+                               id="{{ form.remember_me.id_for_label }}"
+                               class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                        <label for="{{ form.remember_me.id_for_label }}" class="ml-2 text-sm text-white">
+                            Se souvenir de moi
+                        </label>
+                    </div>
+                    <a href="#" class="text-sm text-white hover:text-opacity-80 transition">
+                        Mot de passe oublié ?
+                    </a>
+                </div>
+                
+                <!-- Submit button -->
+                <button type="submit" 
+                        class="w-full bg-white text-purple-600 py-3 px-4 rounded-lg font-semibold hover:bg-opacity-90 transition transform hover:scale-105 flex items-center justify-center gap-2">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Se connecter</span>
+                </button>
+            </form>
+            
+            <!-- Lien vers inscription -->
+            <div class="mt-6 text-center">
+                <p class="text-white text-opacity-80">
+                    Pas encore de compte ?
+                    <a href="{% url 'register' %}" class="text-white font-semibold hover:underline">
+                        S'inscrire
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

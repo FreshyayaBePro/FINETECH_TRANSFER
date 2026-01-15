@@ -1,5 +1,13 @@
 asgiref==3.11.0
 Django==6.0
+django-browser-reload==1.21.0
+django-tailwind==4.4.2
+iniconfig==2.3.0
+packaging==25.0
+pluggy==1.6.0
 psycopg2-binary==2.9.11
-python-dotenv==1.2.1
+Pygments==2.19.2
+pytailwindcss==0.3.0
+pytest==9.0.2
+pytest-django==4.11.1
 sqlparse==0.5.5

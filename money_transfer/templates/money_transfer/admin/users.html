@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}Gestion Utilisateurs - Money Transfer{% endblock %}
+
+{% block content %}
+<div class="animate-slide-in">
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-8">
+        <div>
+            <h1 class="text-3xl font-bold text-gray-900">Gestion des utilisateurs</h1>
+            <p class="text-gray-600 mt-1">{{ users.count }} utilisateur{{ users.count|pluralize }}</p>
+        </div>
+        <a href="{% url 'admin_dashboard' %}" class="text-blue-600 hover:text-blue-700">
+            <i class="fas fa-arrow-left mr-2"></i>Retour au dashboard
+        </a>
+    </div>
+    
+    <!-- Filtres de recherche -->
+    <div class="card p-6 mb-6">
+        <form method="get" class="flex flex-wrap gap-4">
+            <input type="text" 
+                   name="search" 
+                   value="{{ form.search.value|default:'' }}"
+                   placeholder="Rechercher par email, nom..."
+                   class="flex-1 min-w-[300px] px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+            
+            <select name="status" 
+                    onchange="this.form.submit()"
+                    class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                <option value="">Tous les statuts</option>
+                <option value="ACTIVE">Actifs</option>
+                <option value="PENDING">En attente</option>
+                <option value="SUSPENDED">Suspendus</option>
+            </select>
+            
+            <button type="submit" 
+                    class="px-6 py-2 gradient-primary text-white rounded-lg hover:opacity-90 transition">
+                <i class="fas fa-search mr-2"></i>Rechercher
+            </button>
+        </form>
+    </div>
+    
+    <!-- Tableau des utilisateurs -->
+    {% if users %}
+    <div class="card overflow-hidden">
+        <div class="overflow-x-auto">
+            <table class="w-full">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th class="text-left py-4 px-6 text-sm font-semibold text-gray-700">Utilisateur</th>
+                        <th class="text-left py-4 px-6 text-sm font-semibold text-gray-700">Contact</th>
+                        <th class="text-left py-4 px-6 text-sm font-semibold text-gray-700">Statut</th>
+                        <th class="text-left py-4 px-6 text-sm font-semibold text-gray-700">Inscription</th>
+                        <th class="text-left py-4 px-6 text-sm font-semibold text-gray-700">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for u in users %}
+                    <tr class="border-t border-gray-200 hover:bg-gray-50">
+                        <td class="py-4 px-6">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full gradient-primary flex items-center justify-center text-white font-semibold">
+                                    {{ u.first_name|first }}{{ u.last_name|first }}
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">{{ u.first_name }} {{ u.last_name }}</p>
+                                    {% if u.is_staff %}
+                                    <span class="badge bg-purple-100 text-purple-800 text-xs">
+                                        <i class="fas fa-crown mr-1"></i>Admin
+                                    </span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </td>
+                        <td class="py-4 px-6">
+                            <p class="text-sm text-gray-900">{{ u.email }}</p>
+                            <p class="text-sm text-gray-600">{{ u.phone }}</p>
+                        </td>
+                        <td class="py-4 px-6">
+                            <span class="badge {% if u.status == 'ACTIVE' %}bg-green-100 text-green-800
+                                {% elif u.status == 'PENDING' %}bg-yellow-100 text-yellow-800
+                                {% else %}bg-red-100 text-red-800{% endif %}">
+                                {{ u.get_status_display }}
+                            </span>
+                            {% if u.is_verified %}
+                            <p class="text-xs text-green-600 mt-1">
+                                <i class="fas fa-check-circle mr-1"></i>Vérifié
+                            </p>
+                            {% endif %}
+                        </td>
+                        <td class="py-4 px-6 text-sm text-gray-600">
+                            {{ u.date_joined|date:"d/m/Y" }}
+                        </td>
+                        <td class="py-4 px-6">
+                            <a href="{% url 'admin_user_detail' user_id=u.id %}" 
+                               class="text-blue-600 hover:text-blue-700 font-medium text-sm">
+                                <i class="fas fa-eye mr-1"></i>Voir
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% else %}
+    <div class="card p-12 text-center">
+        <i class="fas fa-users-slash text-6xl text-gray-300 mb-4"></i>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Aucun utilisateur trouvé</h3>
+        <p class="text-gray-600">Modifiez vos critères de recherche</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

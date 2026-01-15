@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block title %}Dépôt - Money Transfer{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto animate-slide-in">
+    <!-- Breadcrumb -->
+    <div class="mb-6">
+        <a href="{% url 'dashboard' %}" class="text-blue-600 hover:text-blue-700">
+            <i class="fas fa-arrow-left mr-2"></i>Retour au dashboard
+        </a>
+    </div>
+    
+    <!-- Card principale -->
+    <div class="card p-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full gradient-success mb-4">
+                <i class="fas fa-plus text-3xl text-white"></i>
+            </div>
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">Déposer de l'argent</h1>
+            <p class="text-gray-600">Alimentez votre compte en toute sécurité</p>
+        </div>
+        
+        <!-- Solde actuel -->
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 mb-8">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm text-gray-600 mb-1">Solde actuel</p>
+                    <p class="text-3xl font-bold text-gray-900">{{ balance|floatformat:0 }} FCFA</p>
+                </div>
+                <i class="fas fa-wallet text-4xl text-blue-600"></i>
+            </div>
+        </div>
+        
+        <!-- Formulaire -->
+        <form method="post" class="space-y-6">
+            {% csrf_token %}
+            
+            <div>
+                <label for="{{ form.amount.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                    <i class="fas fa-money-bill-wave mr-2 text-green-600"></i>
+                    Montant à déposer (FCFA)
+                </label>
+                <div class="relative">
+                    <input type="number" 
+                           name="{{ form.amount.name }}" 
+                           id="{{ form.amount.id_for_label }}"
+                           class="w-full px-4 py-4 text-2xl font-bold border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition"
+                           placeholder="10 000"
+                           min="1"
+                           step="1"
+                           required>
+                </div>
+                {% if form.amount.errors %}
+                    <p class="mt-2 text-sm text-red-600">{{ form.amount.errors.0 }}</p>
+                {% endif %}
+                <p class="mt-2 text-sm text-gray-600">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    {{ form.amount.help_text }}
+                </p>
+            </div>
+            
+            <!-- Montants suggérés -->
+            <div>
+                <p class="text-sm font-medium text-gray-700 mb-3">Montants suggérés :</p>
+                <div class="grid grid-cols-3 gap-3">
+                    <button type="button" 
+                            onclick="document.getElementById('{{ form.amount.id_for_label }}').value = 5000"
+                            class="py-3 px-4 bg-green-50 text-green-700 font-medium rounded-lg hover:bg-green-100 transition">
+                        5 000 FCFA
+                    </button>
+                    <button type="button" 
+                            onclick="document.getElementById('{{ form.amount.id_for_label }}').value = 10000"
+                            class="py-3 px-4 bg-green-50 text-green-700 font-medium rounded-lg hover:bg-green-100 transition">
+                        10 000 FCFA
+                    </button>
+                    <button type="button" 
+                            onclick="document.getElementById('{{ form.amount.id_for_label }}').value = 25000"
+                            class="py-3 px-4 bg-green-50 text-green-700 font-medium rounded-lg hover:bg-green-100 transition">
+                        25 000 FCFA
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Informations -->
+            <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-info-circle text-blue-600 mt-1"></i>
+                    <div>
+                        <p class="text-sm text-blue-800 font-medium mb-1">À savoir :</p>
+                        <ul class="text-sm text-blue-700 space-y-1">
+                            <li>✓ Aucun frais sur les dépôts</li>
+                            <li>✓ Crédité instantanément</li>
+                            <li>✓ Opération 100% sécurisée</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Boutons -->
+            <div class="flex gap-4">
+                <a href="{% url 'dashboard' %}" 
+                   class="flex-1 py-4 px-6 bg-gray-200 text-gray-700 font-semibold rounded-lg hover:bg-gray-300 transition text-center">
+                    <i class="fas fa-times mr-2"></i>Annuler
+                </a>
+                <button type="submit" 
+                        class="flex-1 gradient-success py-4 px-6 text-white font-semibold rounded-lg hover:opacity-90 transition transform hover:scale-105">
+                    <i class="fas fa-check mr-2"></i>Confirmer le dépôt
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
